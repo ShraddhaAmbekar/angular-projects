@@ -1,0 +1,21 @@
+.book-area{
+  width: 600px;
+  border: 2px solid;
+  padding: 10px;
+}
+
+.check-available{
+  background-color: rgb(255, 255, 255);
+  margin: 30px;
+  border-radius: 20px;
+  font-size: 20px;
+  padding: 5px; 
+}
+
+label{
+  margin: 10px;
+}
+
+select{
+  margin:10px
+}
