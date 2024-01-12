@@ -1,0 +1,2 @@
+create new project Hotel_Delicious by ng new Hotel_Delicious
+make navbar
