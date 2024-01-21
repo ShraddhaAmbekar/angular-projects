@@ -1,0 +1,46 @@
+.container{
+  width:75%;
+  height: 500px;
+  
+}
+
+
+.about-wrapper{
+  padding-top: 1.375rem;
+
+}
+span{
+  color:orange;
+}
+.img-fluid{
+  position:absolute;
+  top:100px
+}
+.content{
+  position: absolute;
+  top:150px
+}
+.explore-btn{
+  width: 170px;
+  padding: 10px;
+  font-size: 20px;
+  border-radius: 25px;
+  background-color: transparent;
+}
+.explore-btn:hover{
+  background-color: blueviolet;
+  border: transparent;
+  color: white;
+  font-size:22px ;
+  font-weight: 700;
+}
+.back-btn{
+ font-size: 25px;
+  background: transparent;
+  position: absolute;
+  left:50px;
+}
+
+.back-btn:hover{
+  background-color:rgb(214, 205, 205);
+}

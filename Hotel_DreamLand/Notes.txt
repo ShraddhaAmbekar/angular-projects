@@ -1,0 +1,12 @@
+create new project Hotel_Delicious by ng new Hotel_Delicious
+make component main-page
+make module home using (ng g m moduleName) --routing and inside home component make component home_main_page
+in app-routing module make path using loadChildren method import module and initialise it and use it
+{path : 'home', loadChildren:()=> import("./home/home.module").then(mod=>mod.HomeModule)}
+in home.routing.module make simple routing path
+make button in globle component to redirect module component using routerlink "/home/home-page"
+to button give first app.routing.module path then give path from home module give / before
+make other modules
+make signin form using templatedriven form and signup form using reactive form and make it validate for that we must be import formsModule and ReactiveFormModule in import section of app.module.ts
+then make server db.json and make store our data in that server
+to watch your server use command npx json-server --watch db.json --port 3000 

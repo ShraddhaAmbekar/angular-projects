@@ -1,0 +1,14 @@
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+
+.signup{
+  margin: 30px 0px;
+}
+strong{
+  color: rgb(36, 3, 135);
+}

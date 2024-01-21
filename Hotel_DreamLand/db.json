@@ -1,0 +1,14 @@
+{
+  "admin": [],
+  "user": [
+    {
+      "id": "d1a1",
+      "name": "Shraddha",
+      "email": "shraddha@gmail.com",
+      "password": "shraddha",
+      "confirmPassword": "shraddha",
+      "checkbox": true
+    }
+  ],
+  "rooms": []
+}

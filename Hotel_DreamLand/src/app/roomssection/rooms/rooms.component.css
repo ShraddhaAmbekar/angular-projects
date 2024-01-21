@@ -1,0 +1,17 @@
+.room:hover{
+  transform:scale3d(1.05, 1.05, 1.05);
+;}
+.room-content{
+  border:.125rem solid 
+}
+.main-btn{
+  font-size: 20px;
+  margin-bottom: 20px;
+  background: transparent;
+  border: none;
+  color: blue;
+}
+.main-btn:hover{
+  font-size: 25px;
+}
+
