@@ -1,0 +1,18 @@
+.price_wrapper .card{
+  box-shadow: 0.125rem 0.25rem rgb(34 30 31 40%);
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.price_wrapper .card:hover{
+  background-color: rgb(210, 156, 75);
+}
+.price_wrapper .card:hover h3,
+.price_wrapper .card:hover h5,
+.price_wrapper .card:hover p{
+  color: white;
+}
+
+.price_wrapper .card:hover .main-btn{
+  color: white;
+  border-color: white;
+}
