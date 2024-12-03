@@ -11,4 +11,8 @@ export class ApicallService {
     let url=this.url+'/'+ endpoint
     return this.http.post(url,form)
   }
+  getApiCall(endpoint:any){
+    let url=this.url+'/'+ endpoint
+    return this.http.get(url)
+  }
 }

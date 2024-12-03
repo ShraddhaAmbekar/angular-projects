@@ -42,10 +42,16 @@
                   </label>
                 </div>
 
+                <div>
+                  <input type="file" formControlName="hotelImage">
+                </div>
+
                 <div class="d-flex justify-content-center">
                   <button (click)="submit(signupForm.value)"type="button"
                     class="btn btn-success btn-block btn-lg gradient-custom-4 text-body" [disabled]="signupForm.invalid || signupForm.get('checkbox')?.value==false">Register</button>
                 </div>
+                
+
                 <p class="text-center text-muted mt-4 mb-0">Have already an account? 
                   <a routerLink="/signin" class="fw-bold text-body"><u>Login here</u></a></p>
               </form>

@@ -34,7 +34,7 @@
 }
 
 .footer-wrapper .link-widget li a:before{
-  content:'\f105';
+  content:'>';
   font-weight: 900;
   position: absolute;
   left:0.3rem;

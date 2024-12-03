@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
-import { ApicallService } from '../shared/apicall.service';
+import { ApicallService } from 'src/app/shared/apicall.service';
+
 
 @Component({
   selector: 'app-signup',
@@ -10,11 +11,14 @@ import { ApicallService } from '../shared/apicall.service';
 export class SignupComponent {
   signupForm!:FormGroup;
   misMatch=true;
+  user: any;
+
 
   constructor(private formBuilder:FormBuilder, private apicallService:ApicallService){}
   
   ngOnInit(){
     this.formLoad();
+    
    };
    
    formLoad(){
@@ -23,7 +27,8 @@ export class SignupComponent {
        email : ['',[Validators.required]],
        password : ['',[Validators.required]],
        confirmPassword : ['',[Validators.required]],
-       checkbox :[true]
+       checkbox :[true],
+       
      })
    };
 

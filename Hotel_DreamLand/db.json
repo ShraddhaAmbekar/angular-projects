@@ -8,7 +8,89 @@
       "password": "shraddha",
       "confirmPassword": "shraddha",
       "checkbox": true
+    },
+    {
+      "id": "ef83",
+      "name": "Akanksha ",
+      "email": "akanksha@gmail.com",
+      "password": "akanksha",
+      "confirmPassword": "akanksha",
+      "checkbox": true
+    },
+    {
+      "id": "b74f",
+      "name": "f",
+      "email": "d",
+      "password": "d",
+      "confirmPassword": "d",
+      "checkbox": true,
+      "hotelImage": "C:\\fakepath\\Screenshot 2024-01-01 121755.png"
+    },
+    {
+      "id": "a7be",
+      "name": "f",
+      "email": "d",
+      "password": "d",
+      "confirmPassword": "d",
+      "checkbox": true,
+      "hotelImage": "C:\\fakepath\\Screenshot 2024-01-01 121755.png"
+    },
+    {
+      "id": "d38d",
+      "name": "f",
+      "email": "d",
+      "password": "d",
+      "confirmPassword": "d",
+      "checkbox": true,
+      "hotelImage": "C:\\fakepath\\Screenshot 2024-01-01 121755.png"
+    },
+    {
+      "id": "27be",
+      "name": "f",
+      "email": "d",
+      "password": "d",
+      "confirmPassword": "d",
+      "checkbox": true,
+      "hotelImage": "C:\\fakepath\\Screenshot 2024-01-01 121755.png"
+    },
+    {
+      "id": "7f23",
+      "name": "f",
+      "email": "d",
+      "password": "d",
+      "confirmPassword": "d",
+      "checkbox": true,
+      "hotelImage": "C:\\fakepath\\Screenshot 2024-01-01 121755.png"
+    },
+    {
+      "id": "ad7c",
+      "name": "f",
+      "email": "d",
+      "password": "d",
+      "confirmPassword": "d",
+      "checkbox": true,
+      "hotelImage": "C:\\fakepath\\Screenshot 2024-01-01 121755.png"
+    },
+    {
+      "id": "4fbe",
+      "name": "f",
+      "email": "d",
+      "password": "d",
+      "confirmPassword": "d",
+      "checkbox": true,
+      "hotelImage": "C:\\fakepath\\Screenshot 2024-01-01 121755.png"
+    },
+    {
+      "id": "b923",
+      "name": "sd",
+      "email": "sd",
+      "password": "sdf",
+      "confirmPassword": "sdf",
+      "checkbox": true,
+      "hotelImage": "C:\\fakepath\\Screenshot 2024-01-01 121755.png"
     }
   ],
-  "rooms": []
+  "rooms": [],
+
+"image":[]
 }

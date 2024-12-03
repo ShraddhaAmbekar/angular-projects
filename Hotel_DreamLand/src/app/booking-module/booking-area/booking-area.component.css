@@ -1,7 +1,11 @@
-.book-area{
-  width: 600px;
-  border: 2px solid;
-  padding: 10px;
+.main{
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 600px;
+    padding: 10px; 
+    border: 2px solid;
 }
 
 .check-available{
